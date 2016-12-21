@@ -1,0 +1,7 @@
+C:\Git\CSharp_Sorts\CSharp_Sorts\CSharp_Sorts\bin\Debug\CSharp_Sorts.exe.config
+C:\Git\CSharp_Sorts\CSharp_Sorts\bin\Debug\CSharp_Sorts.exe.config
+C:\Git\CSharp_Sorts\CSharp_Sorts\bin\Debug\CSharp_Sorts.exe
+C:\Git\CSharp_Sorts\CSharp_Sorts\bin\Debug\CSharp_Sorts.pdb
+C:\Git\CSharp_Sorts\CSharp_Sorts\obj\Debug\CSharp_Sorts.csprojResolveAssemblyReference.cache
+C:\Git\CSharp_Sorts\CSharp_Sorts\obj\Debug\CSharp_Sorts.exe
+C:\Git\CSharp_Sorts\CSharp_Sorts\obj\Debug\CSharp_Sorts.pdb
