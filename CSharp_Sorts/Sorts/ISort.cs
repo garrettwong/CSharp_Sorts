@@ -1,6 +1,8 @@
-﻿namespace CSharp_Sorts.Sorts
+﻿using System;
+
+namespace CSharp_Sorts.Sorts
 {
-    internal interface ISort
+    public interface ISort
     {
         void Sort(int[] arr);
     }

@@ -43,10 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataGenerator.cs" />
+    <Compile Include="Timer.cs" />
+    <Compile Include="ReflectiveEnumerator.cs" />
+    <Compile Include="ArrayPrint.cs" />
     <Compile Include="ArrayAssertions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorts\OptimizedQuicksort.cs" />
+    <Compile Include="Sorts\SortUtils.cs" />
     <Compile Include="Sorts\ISort.cs" />
+    <Compile Include="Sorts\Mergesort.cs" />
     <Compile Include="Sorts\Quicksort.cs" />
   </ItemGroup>
   <ItemGroup>

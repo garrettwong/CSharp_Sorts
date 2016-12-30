@@ -4,32 +4,26 @@ namespace CSharp_Sorts
 {
     internal class ArrayAssertions
     {
-        public static bool IsInIncreasingOrder(int[] intArray)
+        public static bool IsInSortedOrder<T>(T[] arr) 
+            where T : IComparable
         {
-            if (intArray.Length == 0) return true;
+            if (arr.Length == 0) return true;
 
-            int? prev = null;
+            T prev = arr[0];
 
-            for (var x = 0; x < intArray.Length; x++)
+            for (var x = 1; x < arr.Length; x++)
             {
-                var val = intArray[x];
-                if (prev != null && prev > val)
+                var cur = arr[x];
+
+                if (prev != null && 
+                    prev.CompareTo(cur) > 0)
                 {
                     return false;
                 }
 
-                prev = intArray[x];
+                prev = arr[x];
             }
             return true;
-        }
-        public static void Print(int[] intArray)
-        {
-            for (var x = 0; x < intArray.Length; x++)
-            {
-                Console.Write(intArray[x] + ", ");
-            }
-
-            Console.WriteLine();
         }
     }
 }

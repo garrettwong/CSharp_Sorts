@@ -1,4 +1,6 @@
-﻿namespace CSharp_Sorts.Sorts
+﻿using System;
+
+namespace CSharp_Sorts.Sorts
 {
     public class Quicksort : ISort
     {
@@ -41,15 +43,8 @@
                     return j;
                 }
 
-                Swap(arr, i, j);
+                SortUtils.Swap(arr, i, j);
             } while (true);
-        }
-
-        public void Swap(int[] arr, int i, int j)
-        {
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
         }
     }
 }
