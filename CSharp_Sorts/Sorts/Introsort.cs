@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharp_Sorts.Sorts
 {
+    /// <summary>
+    /// http://blog.teamleadnet.com/2013/08/introsort-algorithm-in-net-45-internal.html
+    /// </summary>
     public class Introsort : ISort
     {
         public void Sort(int[] arr)
