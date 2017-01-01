@@ -7,6 +7,9 @@
 * Quicksort
 * OptimizedQuicksort
 * Mergesort
+* .NET Default Sort
+* Introsort
+
 
 ## Getting Started
 * Use 'F5' to run program.  This is a console application.  
@@ -42,3 +45,5 @@ public static class Timer
 }
 
 ```
+
+## Results - Console Output

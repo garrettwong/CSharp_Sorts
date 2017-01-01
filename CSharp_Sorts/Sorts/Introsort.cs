@@ -110,16 +110,14 @@ namespace CSharp_Sorts.Sorts
         private int Partition(ref int[] data, int left, int right)
         {
             int pivot = data[right];
-            int temp;
             int i = left;
 
             for (int j = left; j < right; ++j)
             {
                 if (data[j] <= pivot)
                 {
-                    temp = data[j];
-                    data[j] = data[i];
-                    data[i] = temp;
+                    SortUtils.Swap(data, i, j);
+
                     i++;
                 }
             }
