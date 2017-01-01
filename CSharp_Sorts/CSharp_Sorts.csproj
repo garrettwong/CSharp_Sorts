@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DataGenerator.cs" />
     <Compile Include="Sorts\DotNetArraySort.cs" />
+    <Compile Include="Sorts\Insertionsort.cs" />
     <Compile Include="Sorts\Introsort.cs" />
     <Compile Include="Timer.cs" />
     <Compile Include="ReflectiveEnumerator.cs" />

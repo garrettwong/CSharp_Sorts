@@ -47,3 +47,33 @@ public static class Timer
 ```
 
 ## Results - Console Output
+
+Sorter: CSharp_Sorts.Sorts.DotNetArraySort
+1, 1, 2, 3, 3, 4, 6, 7, 16, 20, 21, 39,
+-9, -3, -2, -1, 0, 4, 6,
+Time to sort both datasets: 1387ms
+
+Sorter: CSharp_Sorts.Sorts.Insertionsort
+1, 1, 2, 3, 3, 4, 6, 7, 16, 20, 21, 39,
+-9, -3, -2, -1, 0, 4, 6,
+Time to sort both datasets: 1243ms
+
+Sorter: CSharp_Sorts.Sorts.Introsort
+1, 1, 2, 3, 3, 4, 6, 7, 16, 20, 21, 39,
+-9, -3, -2, -1, 0, 4, 6,
+Time to sort both datasets: 8666ms
+
+Sorter: CSharp_Sorts.Sorts.OptimizedQuicksort
+1, 1, 2, 3, 3, 4, 6, 7, 16, 20, 21, 39,
+-9, -3, -2, -1, 0, 4, 6,
+Time to sort both datasets: 3005ms
+
+Sorter: CSharp_Sorts.Sorts.Mergesort
+1, 1, 2, 3, 3, 4, 6, 7, 16, 20, 21, 39,
+-9, -3, -2, -1, 0, 4, 6,
+Time to sort both datasets: 4328ms
+
+Sorter: CSharp_Sorts.Sorts.Quicksort
+1, 1, 2, 3, 3, 4, 6, 7, 16, 20, 21, 39,
+-9, -3, -2, -1, 0, 4, 6,
+Time to sort both datasets: 2489ms
